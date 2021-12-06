@@ -1,0 +1,43 @@
+
+<!doctype html> 
+<title>Example</title> 
+<style> 
+body {  
+  display: grid; 
+  grid-template-areas:  
+    "header nav article" 
+    "header nav  ads" 
+    "header footer footer"; 
+  grid-template-rows: 1frf 1fr 1fr; 
+  grid-template-columns: 50% 1fr 1fr; 
+  grid-gap: 10px; 
+  height: 100vh; 
+  margin: 0; 
+  } 
+header, footer, article, nav, div { 
+  padding: 20px; 
+  background: gold; 
+} 
+#pageHeader { 
+  grid-area: header; 
+} 
+#pageFooter { 
+  grid-area: footer; 
+} 
+#mainArticle {  
+  grid-area: article;       
+  } 
+#mainNav {  
+  grid-area: nav;  
+  } 
+#siteAds {  
+  grid-area: ads;  
+  } 
+</style> 
+<body> 
+  <header id="pageHeader">Header</header> 
+  <article id="mainArticle">Article</article> 
+  <nav id="mainNav">Nav</nav> 
+  <div id="siteAds">Ads</div> 
+  <footer id="pageFooter">Footer</footer> 
+</body>

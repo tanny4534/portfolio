@@ -1,0 +1,5 @@
+#pageRed {
+    background-color: red;
+    grid-template-columns: 4;
+    grid-template-rows: 6;
+}

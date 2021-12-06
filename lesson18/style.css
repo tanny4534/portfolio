@@ -1,0 +1,11 @@
+.container {
+    /* display: flex; */
+    width: 100%;
+}
+body {
+    background-color: rgb(209, 210, 250);
+}
+.me {
+    background:rgb(129, 127, 211);
+    border: 5px solid black;
+}

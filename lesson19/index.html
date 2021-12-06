@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<style>
+body {
+  display: grid;
+  grid-template-areas:
+    
+    " article ads"
+    ;
+  grid-template-rows:  1fr;
+  grid-template-columns: 50% 1fr ;
+  grid-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }
+  div {
+  padding: 20px;
+  background: gold;
+}
+
+#mainArticle {
+  grid-area: article;
+  }
+
+#siteAds {
+  grid-area: ads;
+
+
+  }
+</style>
+<body>
+  
+  <article id="mainArticle">Article</article>
+  
+  <div id="siteAds">Ads</div>
+  <div id="pageRed">Nol</div>
+
+</body>
+</html>
