@@ -1,0 +1,31 @@
+body {
+    width: 100%;
+}
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+label {
+
+    padding: 18px;
+}
+#text {
+    top: 10px;
+    padding: 18px;
+    height: 10px;
+}
+#btn-create {
+    padding: 18px;
+}
+h2 {
+    padding: 18px;
+}
+select {
+    margin: 18px;
+}
+.top{
+    width: 100%;
+    display: flex;
+}
